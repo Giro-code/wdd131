@@ -1,6 +1,7 @@
 :root { --navy:#223c50; --paper:#faf9f5; --line:#d8ddd9; --text:#263c49; }
 * { box-sizing:border-box; }
 body { margin:0; font-family:Roboto,"Segoe UI",sans-serif; color:var(--text); background:var(--paper); line-height:1.7; }
+header { background:var(--navy); color:white; }
 #course-title { display:block; text-align:center; padding:25px 18px; font-weight:700; background:var(--navy); color:white; font-size:21px; }
 nav { display:flex; justify-content:space-evenly; flex-wrap:wrap; background:#172a38; padding:9px 12px; gap:8px; }
 nav a { color:white; text-decoration:none; padding:9px 14px; border-radius:4px; }
