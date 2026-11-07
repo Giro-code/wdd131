@@ -1,0 +1,14 @@
+@media (min-width: 640px) {
+  .header-inner { padding-block: 20px; }
+  #menu-button { display: none; }
+  nav, nav.open { display: flex; width: auto; flex-direction: row; padding-top: 0; gap: 4px; }
+  nav a { padding: 10px 15px; }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 24px; }
+  main { padding-top: 35px; }
+}
+@media (min-width: 960px) {
+  .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .gallery.large-photos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gallery.small-photos { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .small-photos .temple-name { font-size: 14px; }
+}
