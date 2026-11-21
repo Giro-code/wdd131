@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the Dominican Republic: facts and weather information.">
+  <meta name="author" content="Elio Diaz">
+  <title>Dominican Republic | Country Page</title>
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Dominican Republic</h1>
+  </header>
+  <main>
+    <div class="hero">
+      <picture>
+        <source media="(min-width: 700px)" srcset="images/dominican-wide.webp">
+        <img src="images/dominican-mobile.webp" alt="Illustration of a tropical beach in the Dominican Republic" width="600" height="800">
+      </picture>
+      <section class="data" aria-labelledby="data-title">
+        <h2 id="data-title">Data</h2>
+        <dl>
+          <dt>Area:</dt><dd>48,671 km²</dd>
+          <dt>Capital:</dt><dd>Santo Domingo</dd>
+          <dt>Language:</dt><dd>Spanish</dd>
+          <dt>Currency:</dt><dd>Dominican Peso (DOP)</dd>
+          <dt>Time Zone:</dt><dd>UTC−4</dd>
+          <dt>Calling Code:</dt><dd>+1</dd>
+        </dl>
+      </section>
+      <section class="weather" aria-labelledby="weather-title">
+        <h2 id="weather-title">Weather</h2>
+        <img class="weather-icon" src="images/weather.svg" alt="Partly cloudy" width="64" height="64">
+        <dl>
+          <dt>Temperature:</dt><dd>28 °C</dd>
+          <dt>Conditions:</dt><dd>Partly Cloudy</dd>
+          <dt>Wind:</dt><dd>12 km/h</dd>
+          <dt>Wind Chill:</dt><dd id="wind-chill">N/A</dd>
+        </dl>
+      </section>
+    </div>
+    <aside class="local-flavor" aria-labelledby="local-title">
+      <p class="eyebrow">A little local flavor</p>
+      <h2 id="local-title">A warm Dominican welcome</h2>
+      <p>Come for the coast, stay for the conversation. Here are a few Spanish expressions to bring along.</p>
+      <dl class="expressions">
+        <dt lang="es">¿Qué lo que?</dt><dd>A friendly, informal “What's up?”</dd>
+        <dt lang="es">Dímelo, papi</dt><dd>A very casual greeting for a friend: “What's good, my guy?”</dd>
+        <dt lang="es">Un chin</dt><dd>Just a little bit. A useful phrase when someone offers you more food.</dd>
+      </dl>
+      <div class="island-humor">
+        <h3>A little island humor</h3>
+        <p>My plan was to eat just <span lang="es">un chin</span>. The <span lang="es">mangú</span> had other plans.</p>
+        <p>I came for a quiet game of dominoes. The table brought its own soundtrack.</p>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <p>© <span id="currentyear"></span> | Elio Diaz | Dominican Republic</p>
+    <p>Last Modification: <span id="lastmodified"></span></p>
+  </footer>
+</body>
+</html>
